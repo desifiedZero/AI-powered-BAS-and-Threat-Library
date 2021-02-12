@@ -1,0 +1,31 @@
+<form class="form" (ngSubmit)="onSubmit()">
+    <h2 class="form-group"><b>Register</b></h2>
+    <div class="form-group row">
+        <div class="col">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" class="form-control" [(ngModel)]="fname" placeholder="First Name" required>
+        </div>
+        <div class="col">
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" class="form-control" [(ngModel)]="lname" placeholder="Last Name" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="form-control" [(ngModel)]="username" placeholder="Email" required>
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" class="form-control" [(ngModel)]="pass" placeholder="Password" required>
+    </div>
+    <div class="form-group">
+        <label for="c_password">Confirm Password</label>
+        <input type="password" name="c_password" id="c_password" class="form-control" [(ngModel)]="c_pass" placeholder="Confirm Password" required>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="form-control btn-light">Register</button>
+    </div>
+    <div class="form-group">
+        Already registered? <a routerLink="/login" class="text-light"><b>Login</b></a>. <br>
+    </div>
+</form>

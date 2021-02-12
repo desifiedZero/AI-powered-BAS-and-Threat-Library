@@ -1,0 +1,18 @@
+<form class="form" (ngSubmit)="onSubmit()">
+    <h2 class="form-group"><b>Sign In</b></h2>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="form-control" [(ngModel)]="username" placeholder="Email" required>
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" class="form-control" [(ngModel)]="pass" placeholder="Password" required>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="form-control btn-light">Login</button>
+    </div>
+    <div class="form-group">
+        Not registered yet? <a  routerLink="/register" class="text-light"><b>Sign up</b></a>. <br>
+        <small><a href="" class="text-light">Forgot Password?</a></small>
+    </div>
+</form>
