@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.backgrounds{
+    background-color:#003f78;
+  }
+  .white{
+      color: white;
+  }
+  .ip{
+      padding: 10%;
+  }
+  form{
+      color: white;
+  }
+  a{
+      color: white;
+  }
+
+  .black{
+      color:black;
+  }
+  .blue
+  {
+      background-color:#003f78;
+  }
+  .inline-block{
+      display: inline-block;
+  }
+  
