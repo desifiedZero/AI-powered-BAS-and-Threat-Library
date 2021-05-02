@@ -1,0 +1,27 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block content %}
+<div class= "backgrounds ip blue">
+    <img  class="img-fluid" src="{% static 'media/DATACT.png' %}" alt="DATACT" />
+    <h2 class="white">Register</h2>
+    <form class="form" method="get" action="index.html">
+        <label for="fname">First Name</label><br>
+        <input type="text" class="form-control" placeholder="Enter First Name" id="fname"><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" class="form-control" placeholder="Enter Last Name" id="lname"><br>
+        <label for="email">E-mail</label><br>
+        <input type="email" class="form-control" placeholder="Enter email" id="email"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" class="form-control" placeholder="Enter password" id="pwd"><br>
+        <label for="cpwd">Confirm Password:</label><br>
+        <input type="password" class="form-control" placeholder="Confirm password" id="cpwd"><br>
+        <button type="submit" class="btn btn-block">REGISTER</button><br>
+       
+        <a href="index.html">Already Registered?Login</a><br>
+
+    </form>
+
+
+</div>
+          
+{% endblock %}

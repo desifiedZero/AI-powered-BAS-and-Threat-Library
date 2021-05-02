@@ -1,0 +1,30 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block content %}
+<div class= "backgrounds ip">
+    <div class="row">
+        <div class="col-sm-6">
+             <img class="img-fluid" src="{% static 'media/DATACT.png' %}" alt="DATACT" />
+        </div>
+        <div class="col-sm-6">
+            <h2 class="white">Sign In</h2>
+            <form action="dashboard.html" class="form">
+                <label for="email">Username</label><br>
+                <input type="email" class="form-control" placeholder="Enter email" id="email"><br>
+                <label for="pwd">Password:</label><br>
+                <input type="password" class="form-control" placeholder="Enter password" id="pwd"><br>
+                <button type="submit" class="btn btn-block">LOGIN</button><br>
+                <a href="#">Not Registered?Register</a><br>
+                <a href="#">Forgot Password?</a><br>
+                <a href="navbar.html">navbar</a><br>
+            </form>
+        </div>
+    </div>
+
+</div>
+          
+{% endblock %}
+   
+        
+    
+  
