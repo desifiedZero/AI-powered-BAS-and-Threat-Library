@@ -1,0 +1,20 @@
+{% extends 'user/layout.dj.html' %}
+
+{% block heading %}
+Dashboard
+{% endblock %}
+
+{% block title %}
+Dashboard
+{% endblock %}
+
+{% block content %}
+        <div class="row align-items-center">
+            <div class="col-4 py-5">
+                <canvas id="myChart"></canvas>
+            </div>
+            <div class="col-8 py-5">
+                <h1>Your current system health status: <span class="text-success"><b>Healthy</b></span></h1>
+            </div>
+        </div>
+{% endblock %}

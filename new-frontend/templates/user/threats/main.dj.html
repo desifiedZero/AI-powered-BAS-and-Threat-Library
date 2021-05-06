@@ -1,0 +1,40 @@
+{% extends 'user/layout.dj.html' %}
+
+{% block title %}Threat Selection{% endblock %}
+{% block heading %}Threat Selection{% endblock %}
+
+{% block content %}
+<div class="row">
+
+{% for threat in threats %}
+    <div class="col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="{{ threat.image }}" alt="Threat Icon">
+        <div class="card-body">
+            <h4 class="card-title">{{ threat.title }}</h4>
+            <p class="card-text description">{{ threat.description }}</p>
+            <a href="{% url 'threats.threat' threat.id %}" class="btn btn-primary">Explore</a>
+        </div>
+    </div>
+    </div>
+{% endfor %}
+
+</div>
+{% endblock %}
+
+{% block style %}
+    <style>
+    .card-img-top {
+        width: 100%;
+        height: 10rem;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .card-body .card-text.description {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    </style>
+{% endblock %}

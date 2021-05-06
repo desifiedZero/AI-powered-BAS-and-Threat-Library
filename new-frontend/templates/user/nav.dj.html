@@ -1,0 +1,12 @@
+<div><a class="text-center d-block py-3" href="#"><img src="/static/images/logo.png" alt="logo" class="w-75 d-block mx-auto" ></a></div>
+<div class="d-flex flex-column h-100">
+
+<a href="{% url 'dashboard' %}" class="d-block btn p-3 text-light text-left"><i class="fas fa-home mr-3"></i>Dashboard</a>
+<a href="{% url 'threats.all' %}" class="d-block btn p-3 text-light text-left"><i class="fas fa-virus mr-3"></i>Threats</a>
+<a href="#" class="d-block btn p-3 text-light text-left"><i class="fas fa-history mr-3"></i>Previous Runs</a>
+
+<div class="d-flex flex-column flex-grow-1 justify-content-end">
+  <a href="{% url 'logout' %}" class="d-block btn btn-sm btn-light">Logout</a>
+</div>
+
+</div>
