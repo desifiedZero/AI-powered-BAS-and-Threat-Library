@@ -27,13 +27,12 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 
 urlpatterns = [
-     path('', views.index, name="index"),
-     path('registeration.html',views.registeration,),
-     path('navbar.html',views.navbar,),
-     path('login.html',views.login,),
+    path('', views.index, name="index"),
+    path('registeration.html',views.registeration,),
+    path('navbar.html',views.navbar,),
+    path('login.html',views.login,),
     path('admin/', admin.site.urls),
 
-  
 ]
 #+ static(settings.MEDIA_URL,document_root=settings.MEDIA_URL)
 
