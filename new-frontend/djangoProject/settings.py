@@ -42,7 +42,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'threats.apps.ThreatsConfig',
-    'app_user.apps.UsersConfig'
+    'app_user.apps.UsersConfig',
+    'reports.apps.ReportsConfig',
+    'threatApi.apps.ThreatapiConfig',
+    'serverConfiguration.apps.ServerconfigurationConfig'
 ]
 
 MIDDLEWARE = [
