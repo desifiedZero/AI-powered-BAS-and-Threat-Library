@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c060e10a-3da2-49c4-bfed-9834cee3c1ad" name="Default Changelist" comment="registered new applications with project">
-      <change afterPath="$PROJECT_DIR$/classes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/threatApi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="c060e10a-3da2-49c4-bfed-9834cee3c1ad" name="Default Changelist" comment="workspace conf" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +23,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -113,7 +120,7 @@
       <workItem from="1624452404917" duration="1830000" />
       <workItem from="1625400961191" duration="3258000" />
       <workItem from="1625412652386" duration="8381000" />
-      <workItem from="1625425792503" duration="11448000" />
+      <workItem from="1625425792503" duration="12013000" />
     </task>
     <task id="LOCAL-00001" summary="Added reports module">
       <created>1625405782914</created>
@@ -178,7 +185,35 @@
       <option name="project" value="LOCAL" />
       <updated>1625438697470</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="registered new applications with project">
+      <created>1625438811486</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1625438811486</updated>
+    </task>
+    <task id="LOCAL-00011" summary="updated urls">
+      <created>1625438825564</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1625438825564</updated>
+    </task>
+    <task id="LOCAL-00012" summary="created classes dir for segregation">
+      <created>1625438853467</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1625438853467</updated>
+    </task>
+    <task id="LOCAL-00013" summary="workspace conf">
+      <created>1625438868794</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1625438868794</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,19 +224,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/bas-33-django-frontend" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -218,6 +261,10 @@
     <MESSAGE value="Added server configuration module" />
     <MESSAGE value="Added reports module" />
     <MESSAGE value="registered applications with project" />
-    <option name="LAST_COMMIT_MESSAGE" value="registered applications with project" />
+    <MESSAGE value="registered new applications with project" />
+    <MESSAGE value="updated urls" />
+    <MESSAGE value="created classes dir for segregation" />
+    <MESSAGE value="workspace conf" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace conf" />
   </component>
 </project>
