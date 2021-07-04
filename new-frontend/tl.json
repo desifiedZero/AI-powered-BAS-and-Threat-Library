@@ -1,0 +1,25 @@
+{
+  "threats": [
+    {
+      "id": "1",
+      "cve": "CVE-12-1232",
+      "name": "Threat",
+      "description": "THIS IS A THREAT",
+      "impact": "5.5"
+    },
+    {
+      "id": "2",
+      "cve": "CVE-12-1232",
+      "name": "Threat",
+      "description": "THIS IS A THREAT",
+      "impact": "5.5"
+    },
+    {
+      "id": "3",
+      "cve": "CVE-12-1232",
+      "name": "Threat",
+      "description": "THIS IS A THREAT",
+      "impact": "5.5"
+    }
+  ]
+}
