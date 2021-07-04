@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c060e10a-3da2-49c4-bfed-9834cee3c1ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/tl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+    <list default="true" id="c060e10a-3da2-49c4-bfed-9834cee3c1ad" name="Default Changelist" comment="registered new applications with project">
+      <change afterPath="$PROJECT_DIR$/classes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/threatApi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -28,28 +40,32 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1s5aYaOHS5eaefpUG83TBvyqCSL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Usman FYP/new-frontend" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend\threatApi" />
       <recent name="C:\Users\Saad_\PycharmProjects\djangoProject\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend\classes" />
+      <recent name="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend" />
+      <recent name="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend\static" />
+      <recent name="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend\threatApi" />
       <recent name="C:\Users\Saad_\PycharmProjects\djangoProject\templates\user" />
-      <recent name="C:\Users\Saad_\PycharmProjects\djangoProject\static\css" />
-      <recent name="C:\Users\Saad_\PycharmProjects\djangoProject\templates\login" />
-      <recent name="C:\Users\Saad_\PycharmProjects\djangoProject\static\images" />
-      <recent name="C:\Users\Saad_\PycharmProjects\djangoProject\static" />
     </key>
   </component>
   <component name="RunManager">
@@ -81,6 +97,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c060e10a-3da2-49c4-bfed-9834cee3c1ad" name="Default Changelist" comment="" />
+      <changelist id="" name="registered applications with project" comment="" />
       <created>1620164952435</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -94,8 +111,74 @@
       <workItem from="1623518682310" duration="1400000" />
       <workItem from="1623964189838" duration="1220000" />
       <workItem from="1624452404917" duration="1830000" />
-      <workItem from="1625400961191" duration="1454000" />
+      <workItem from="1625400961191" duration="3258000" />
+      <workItem from="1625412652386" duration="8381000" />
+      <workItem from="1625425792503" duration="11448000" />
     </task>
+    <task id="LOCAL-00001" summary="Added reports module">
+      <created>1625405782914</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625405782914</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Misc changes &amp; added TL file">
+      <created>1625405819207</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625405819207</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added userSettings module + fixed bugs">
+      <created>1625438383642</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625438383642</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Moved TL to root">
+      <created>1625438422654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625438422654</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created ThreatApi api and classes (Threat list and Threat class)">
+      <created>1625438482136</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625438482136</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added user settings template + edit nav + added message support">
+      <created>1625438522066</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625438522066</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added server configuration module">
+      <created>1625438540817</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1625438540817</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added reports module">
+      <created>1625438554564</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1625438554564</updated>
+    </task>
+    <task id="LOCAL-00009" summary="registered applications with project">
+      <created>1625438697470</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1625438697470</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,11 +189,35 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Misc changes &amp; added TL file" />
+    <MESSAGE value="Added userSettings module + fixed bugs" />
+    <MESSAGE value="Moved TL to root" />
+    <MESSAGE value="Created ThreatApi api and classes (Threat list and Threat class)" />
+    <MESSAGE value="Added user settings template + edit nav + added message support" />
+    <MESSAGE value="Added server configuration module" />
+    <MESSAGE value="Added reports module" />
+    <MESSAGE value="registered applications with project" />
+    <option name="LAST_COMMIT_MESSAGE" value="registered applications with project" />
   </component>
 </project>
