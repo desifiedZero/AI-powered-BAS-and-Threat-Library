@@ -15,6 +15,16 @@
 </head>
 <body class="">
 
+{% if messages %}
+    <div class="alert alert-danger custom-alert" style="">
+    <ul class="messages">
+        {% for message in messages %}
+        <li class="{% if message.tags %}{{ message.tags }}{% endif %} msg-pop">{{ message }}</li>
+        {% endfor %}
+    </ul>
+    </div>
+{% endif %}
+
 <div class="container-fluid h-100">
   <div class="row h-100">
 
@@ -46,44 +56,57 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous"></script>
 <script>
     const DATA_COUNT = 5;
-    const NUMBER_CFG = {count: DATA_COUNT, min: 0, max: 100};
+     try {
+         const NUMBER_CFG = {count: DATA_COUNT, min: 0, max: 100};
 
-    const data = {
-      labels: ['Good', 'Hazard', 'At Risk'],
-      datasets: [
-        {
-          label: 'Threat Level',
-          data: [50,7,15],
-          backgroundColor: [
-                'rgb(37,132,0)',
-                'rgb(232,172,0)',
-                'rgb(146,0,0)',
-            ],
+            const data = {
+              labels: ['Good', 'Hazard', 'At Risk'],
+              datasets: [
+                {
+                  label: 'Threat Level',
+                  data: [50,7,15],
+                  backgroundColor: [
+                        'rgb(37,132,0)',
+                        'rgb(232,172,0)',
+                        'rgb(146,0,0)',
+                    ],
+                }
+              ]
+            };
+
+            const config = {
+              type: 'doughnut',
+              data: data,
+              options: {
+                responsive: true,
+                plugins: {
+                  legend: {
+                    position: 'top',
+                  },
+                  title: {
+                    display: true,
+                    text: 'Chart.js Doughnut Chart'
+                  }
+                }
+              },
+            };
+
+            var myChart = new Chart(
+                document.getElementById('myChart'),
+                config
+            );
+     } catch (e) { }
+
+    $(document).ready(() => {
+        var msgPop = document.getElementsByClassName('msg-pop');
+        console.log(msgPop);
+        for (let msg in msgPop) {
+            console.log(msg);
+            setTimeout(() => {
+                msg.parentElement.parentElement.remove();
+            }, 5000);
         }
-      ]
-    };
-
-    const config = {
-      type: 'doughnut',
-      data: data,
-      options: {
-        responsive: true,
-        plugins: {
-          legend: {
-            position: 'top',
-          },
-          title: {
-            display: true,
-            text: 'Chart.js Doughnut Chart'
-          }
-        }
-      },
-    };
-
-    var myChart = new Chart(
-    document.getElementById('myChart'),
-    config
-  );
+    })
 </script>
 <style>
     html, body {
@@ -103,6 +126,15 @@
 
     .btn {
         border-radius: 0;
+    }
+
+    .custom-alert {
+        position: absolute;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        bottom: 0;
+        right: 0;
+        z-index: 1000;
     }
 </style>
 </body>

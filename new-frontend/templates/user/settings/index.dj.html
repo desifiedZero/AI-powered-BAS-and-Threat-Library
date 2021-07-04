@@ -1,0 +1,32 @@
+{% extends 'user/layout.dj.html' %}
+
+{% block heading %}
+User Settings
+{% endblock %}
+
+{% block title %}
+User Settings
+{% endblock %}
+
+{% block content %}
+        <div class="row align-items-center">
+            <form action="{% url 'user.settings' %}" method="post" class="w-100">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="old_password">Old Password</label>
+                    <input type="password" class="form-control" name="old_password" id="old_password">
+                </div>
+                <div class="form-group">
+                    <label for="new_password">New Password</label>
+                    <input type="password" class="form-control" name="new_password" id="new_password">
+                </div>
+                <div class="form-group">
+                    <label for="repeat_new_password">Repeat New Password</label>
+                    <input type="password" class="form-control" name="repeat_new_password" id="repeat_new_password">
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-primary" value="Update Password">
+                </div>
+            </form>
+        </div>
+{% endblock %}
