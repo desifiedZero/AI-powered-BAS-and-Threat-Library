@@ -57,12 +57,14 @@ def dashboard(request):
     return render(request, 'user/dashboard.dj.html')
 
 
+@login_required
 def user_settings(request):
     if request.method == 'POST':
         return set_user_settings(request)
     return render(request, 'user/settings/index.dj.html')
 
 
+@login_required
 def set_user_settings(request):
     user = User.objects.get(username=request.user.username)
     post = request.POST
