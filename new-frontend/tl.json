@@ -2,24 +2,35 @@
   "threats": [
     {
       "id": "1",
-      "cve": "CVE-12-1232",
-      "name": "Threat",
-      "description": "THIS IS A THREAT",
-      "impact": "5.5"
+      "cve": "",
+      "name": "ICMP Flood - HTTPS/HTTP, FTP",
+      "description": "Ping flood, also known as ICMP flood, is a common Denial of Service (DoS) attack in which an attacker takes down a victim’s computer by overwhelming it with ICMP echo requests, also known as pings.\n\nThe attack involves flooding the victim’s network with request packets, knowing that the network will respond with an equal number of reply packets. Additional methods for bringing down a target with ICMP requests include the use of custom tools or code, such as hping and scapy.",
+      "impact": "3.0",
+      "image": "https://www.cloudflare.com/img/learning/ddos/ping-icmp-flood-ddos-attack/ping-icmp-flood-ddos-attack-diagram.png",
+      "file": "icmp.py",
+      "call": "flood",
+      "params": [
+        "hostname"
+      ],
+      "success_keywords": [
+        "[FINISHED]"
+      ]
     },
     {
       "id": "2",
-      "cve": "CVE-12-1232",
-      "name": "Threat",
-      "description": "THIS IS A THREAT",
-      "impact": "5.5"
-    },
-    {
-      "id": "3",
-      "cve": "CVE-12-1232",
-      "name": "Threat",
-      "description": "THIS IS A THREAT",
-      "impact": "5.5"
+      "cve": "",
+      "name": "Common Port Scan",
+      "description": "Port scanners are valuable tools in diagnosing network and connectivity issues. However, attackers use port scanners to detect possible access points for infiltration and to identify what kinds of devices you are running on the network, like firewalls, proxy servers or VPN servers.",
+      "impact": "1.0",
+      "image": "https://blogvaronis2.wpengine.com/wp-content/uploads/2020/11/how-a-port-scanner-works.png",
+      "file": "PortScan.py",
+      "call": "portscan",
+      "params": [
+        "hostname"
+      ],
+      "success_keywords": [
+        "[FINISHED]"
+      ]
     }
   ]
 }
