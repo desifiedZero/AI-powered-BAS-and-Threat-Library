@@ -10,14 +10,5 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.RemoveField(
-            model_name='user',
-            name='dob',
-        ),
-        migrations.AddField(
-            model_name='user',
-            name='username',
-            field=models.CharField(default='', max_length=16),
-            preserve_default=False,
-        ),
+
     ]
