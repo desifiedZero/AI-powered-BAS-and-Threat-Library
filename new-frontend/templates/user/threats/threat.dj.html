@@ -16,11 +16,13 @@ Threat Info | {{ threat.title }}
             <img src="{{ threat.image }}" alt="Threat Icon" class="img-fluid img-responsive">
         </div>
         <div class="col-md-8">
-            <h1 class="font-weight-bold">{{ threat.title }}</h1>
+            <h1 class="font-weight-bold">{{ threat.name }}</h1>
             <small>ID: {{ threat.id }}</small>
             <p>{{ threat.description }}</p>
-            <a href="#" class="btn btn-primary btn-sm-block">Launch Attack on active server</a>
-            <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ threat.id }}" class="btn btn-info btn-sm-block" target="_blank">Get more info</a>
+            <a href="#" class="btn btn-primary btn-sm-block">Launch Attack</a>
+            {% if threat.cve != '' %}
+            <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ threat.cve }}" class="btn btn-info btn-sm-block" target="_blank">Get more info</a>
+            {% endif %}
         </div>
     </div>
 {% endblock %}

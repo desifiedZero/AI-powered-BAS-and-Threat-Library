@@ -1,0 +1,40 @@
+{% extends 'user/dashboard.dj.html' %}
+
+{% block heading %}
+Simulation Report
+{% endblock %}
+
+
+{% block title %}
+Threat Info | {{ threat.name }}
+{% endblock %}
+
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-9">
+            {% for report in reports %}
+                <a href="{% url 'reports.get' report.id %}">
+                    <div>
+                        <h3>{{ report.threat.name }}</h3>
+                        <h4>Report ID: {{ report.id }}</h4>
+                        {% if report.success == 1 %}
+                           <span class="badge badge-success">SUCCESS</span>
+                        {% else %}
+                           <span class="badge badge-danger">FAILED</span>
+                        {% endif %}
+                    </div>
+                </a>
+            {% endfor %}
+
+        </div>
+        <div class="col-md-3">
+
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block style %}
+
+{% endblock %}

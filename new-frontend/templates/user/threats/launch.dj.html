@@ -1,0 +1,33 @@
+{% extends 'user/dashboard.dj.html' %}
+
+{% block heading %}
+Simulation Report
+{% endblock %}
+
+
+{% block title %}
+Threat Info | {{ threat.name }}
+{% endblock %}
+
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-9">
+            <h1>{{ threat.name }}</h1>
+            {% if success == 1 %}
+               <span class="badge badge-success">SUCCESS</span>
+            {% else %}
+               <span class="badge badge-danger">FAILED</span>
+            {% endif %}
+            <pre style="background: #f3f3f3; border: 1px #EEE solid; border-radius: 15px; padding: 1rem;"><b>Output: </b><br>{{ report.output|linebreaksbr }}</pre>
+        </div>
+        <div class="col-md-3">
+
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block style %}
+
+{% endblock %}
