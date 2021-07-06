@@ -20,5 +20,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('threats/', include('threats.urls')),
     path('api/', include('threatApi.urls')),
+    path('server/', include('serverConfiguration.urls')),
+    path('reports/', include('reports.urls')),
     path('', include('app_user.urls')),
 ]
