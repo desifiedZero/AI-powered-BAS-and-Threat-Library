@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c060e10a-3da2-49c4-bfed-9834cee3c1ad" name="Default Changelist" comment="workspace conf" />
+    <list default="true" id="c060e10a-3da2-49c4-bfed-9834cee3c1ad" name="Default Changelist" comment="TL update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/reports/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user/dashboard.dj.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/dashboard.dj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user/nav.dj.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/nav.dj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user/reports/report.dj.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/reports/report.dj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user/reports/reports.dj.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/reports/reports.dj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user/settings/index.dj.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/settings/index.dj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user/threats/launch.dj.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/threats/launch.dj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user/threats/threat.dj.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/threats/threat.dj.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,22 +71,157 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Usman FYP/new-frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/user/threats" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend\templates\user\threats" />
+      <recent name="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend\templates\user\server" />
+      <recent name="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend\serverConfiguration" />
       <recent name="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend\threatApi" />
       <recent name="C:\Users\Saad_\PycharmProjects\djangoProject\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend\classes" />
+      <recent name="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend\templates\user\reports" />
+      <recent name="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend\attacks" />
       <recent name="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend" />
+      <recent name="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend\classes" />
       <recent name="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend\static" />
-      <recent name="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend\threatApi" />
-      <recent name="C:\Users\Saad_\PycharmProjects\djangoProject\templates\user" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.sqlinjectscanner">
+    <configuration name="Cliphisher (1)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="djangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/attacks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/attacks/Cliphisher.py" />
+      <option name="PARAMETERS" value="email" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Cliphisher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/attacks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend\attacks\Cliphisher.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Cliphisher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\FYP\AI-powered-BAS-and-Threat-Library\new-frontend\attacks\Cliphisher.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PortScan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/attacks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/attacks/PortScan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="icmp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/attacks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/attacks/icmp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sqlinjectscanner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/attacks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/attacks/sqlinjectscanner.py" />
+      <option name="PARAMETERS" value="http://127.0.0.1:8000/" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="djangoProject" type="Python.DjangoServer" factoryName="Django server">
       <module name="djangoProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,12 +245,20 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.sqlinjectscanner" />
+        <item itemvalue="Python.PortScan" />
+        <item itemvalue="Python.icmp" />
+        <item itemvalue="Python.Cliphisher (1)" />
+        <item itemvalue="Python.Cliphisher" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c060e10a-3da2-49c4-bfed-9834cee3c1ad" name="Default Changelist" comment="" />
-      <changelist id="" name="registered applications with project" comment="" />
       <created>1620164952435</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -120,7 +274,10 @@
       <workItem from="1624452404917" duration="1830000" />
       <workItem from="1625400961191" duration="3258000" />
       <workItem from="1625412652386" duration="8381000" />
-      <workItem from="1625425792503" duration="12013000" />
+      <workItem from="1625425792503" duration="21178000" />
+      <workItem from="1625514666348" duration="23806000" />
+      <workItem from="1625642399746" duration="6000" />
+      <workItem from="1628034590999" duration="7203000" />
     </task>
     <task id="LOCAL-00001" summary="Added reports module">
       <created>1625405782914</created>
@@ -213,7 +370,84 @@
       <option name="project" value="LOCAL" />
       <updated>1625438868794</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fixed some auth">
+      <created>1625517069680</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1625517069680</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added some attacks">
+      <created>1625517123952</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1625517123952</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added reports">
+      <created>1625551099487</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1625551099487</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added server conf">
+      <created>1625551109512</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1625551109512</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added + edited templates for controllers">
+      <created>1625551134720</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1625551134720</updated>
+    </task>
+    <task id="LOCAL-00019" summary="edit threats">
+      <created>1625551156063</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1625551156063</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update ThreatsApi">
+      <created>1625551185424</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1625551185424</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update root urls">
+      <created>1625551195404</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1625551195404</updated>
+    </task>
+    <task id="LOCAL-00022" summary="added attacks + mods">
+      <created>1625551206883</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1625551206883</updated>
+    </task>
+    <task id="LOCAL-00023" summary="migrations">
+      <created>1625551216863</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1625551216863</updated>
+    </task>
+    <task id="LOCAL-00024" summary="TL update">
+      <created>1625551226732</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1625551226732</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +499,24 @@
     <MESSAGE value="updated urls" />
     <MESSAGE value="created classes dir for segregation" />
     <MESSAGE value="workspace conf" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace conf" />
+    <MESSAGE value="fixed some auth" />
+    <MESSAGE value="added some attacks" />
+    <MESSAGE value="added reports" />
+    <MESSAGE value="added server conf" />
+    <MESSAGE value="added + edited templates for controllers" />
+    <MESSAGE value="edit threats" />
+    <MESSAGE value="update ThreatsApi" />
+    <MESSAGE value="update root urls" />
+    <MESSAGE value="added attacks + mods" />
+    <MESSAGE value="migrations" />
+    <MESSAGE value="TL update" />
+    <option name="LAST_COMMIT_MESSAGE" value="TL update" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/new_frontend$PortScan.coverage" NAME="PortScan Coverage Results" MODIFIED="1625530158545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/attacks" />
+    <SUITE FILE_PATH="coverage/new_frontend$icmp.coverage" NAME="icmp Coverage Results" MODIFIED="1625516592980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/attacks" />
+    <SUITE FILE_PATH="coverage/new_frontend$Cliphisher__1_.coverage" NAME="Cliphisher (1) Coverage Results" MODIFIED="1625513068385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/attacks" />
+    <SUITE FILE_PATH="coverage/new_frontend$Cliphisher.coverage" NAME="Cliphisher Coverage Results" MODIFIED="1625505561107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/attacks" />
+    <SUITE FILE_PATH="coverage/new_frontend$sqlinjectscanner.coverage" NAME="sqlinjectscanner Coverage Results" MODIFIED="1625533562791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/attacks" />
   </component>
 </project>

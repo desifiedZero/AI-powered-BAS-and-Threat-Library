@@ -10,7 +10,9 @@ User Settings
 
 {% block content %}
         <div class="row align-items-center">
-            <form action="{% url 'user.settings' %}" method="post" class="w-100">
+            <div class="col-12">
+                <h3 class="mb-4">Change Password</h3>
+                <form action="{% url 'user.settings' %}" method="post" class="w-100">
                 {% csrf_token %}
                 <div class="form-group">
                     <label for="old_password">Old Password</label>
@@ -28,5 +30,6 @@ User Settings
                     <input type="submit" class="btn btn-primary" value="Update Password">
                 </div>
             </form>
+            </div>
         </div>
 {% endblock %}

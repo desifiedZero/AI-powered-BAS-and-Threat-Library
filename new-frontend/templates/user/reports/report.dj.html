@@ -19,15 +19,27 @@ Threat Info | {{ threat.name }}
             {% else %}
                <span class="badge badge-danger">FAILED</span>
             {% endif %}
-            <pre style="background: #f3f3f3; border: 1px #EEE solid; border-radius: 15px; padding: 1rem;"><b>Output: </b><br>{{ report.output|linebreaksbr }}</pre>
+            <div>
+                Simulation ran on {{ report.date_added|date:"D, M d, Y" }}
+            </div>
+            <pre style="background: #f3f3f3; border: 1px #EEE solid; border-radius: 15px; padding: 1rem;" class="mt-3"><b>Output: </b><br>{{ report.output|linebreaksbr }}</pre>
         </div>
-        <div class="col-md-3">
-
+        <div class="col-md-3 bg-dark text-light p-3" style="height: min-content;">
+            <h3 class="mb-3">{{ _('Threat Info') }}</h3>
+            <h4><b>{{ threat.name }}</b></h4>
+            <b class="d-block px-3 py-2 bg-light text-dark my-2">
+                <div>Local ID: {{ threat.id }}</div>
+                {% if threat.cve != '' %}
+                    <div>CVE: {{ threat.cve }}</div>
+                {% endif %}
+                <div>Impact: {{ threat.impact }}</div>
+            </b>
+            <div>{{ threat.description }}</div>
+            <a href="/threats/{{ threat.id }}" class="btn btn-light btn-block mt-3">Visit Page</a>
         </div>
     </div>
 {% endblock %}
 
 
 {% block style %}
-
 {% endblock %}

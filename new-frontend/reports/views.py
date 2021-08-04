@@ -16,12 +16,13 @@ def getAll(request):
 
 def get(request, id):
     report = Report.objects.get(id=id)
+    print(report.date_added)
     threats = ThreatApi()
     threats.populate()
     ths = threats.dict
     threat = None
     for th in ths['threats']:
-        if th['id'] == report.threat:
+        if int(th['id']) == int(report.threat):
             threat = th
             break
     data = {

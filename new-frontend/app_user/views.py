@@ -7,6 +7,9 @@ from django.shortcuts import render, redirect
 
 # Create your views here.
 from app_user.models import AppUser
+from classes.threatApi import ThreatApi
+from reports.models import Report
+from threats.models import Threat
 
 
 def login(request):
@@ -40,7 +43,7 @@ def register_submit(request):
         if userdata['password'] == userdata['confirm_password']:
             User.objects.create_user(userdata['username'], userdata['email'], userdata['password'],
                                      first_name=userdata['fname'], last_name=userdata['lname'], is_staff=False)
-            return HttpResponse("<h1>User has been registered.</h1>")
+            return redirect('login')
         return HttpResponse("<h1>Error: Could not create user.</h1>"
                             "<a href=\"/register\">Get back to register page</a>")
     return HttpResponseBadRequest('Invalid request type')
@@ -54,7 +57,19 @@ def logout(request):
 
 @login_required
 def dashboard(request):
-    return render(request, 'user/dashboard.dj.html')
+    from datetime import date
+    current_week = date.today().isocalendar()[1]
+    week_count = Report.objects.filter(date_added__week=current_week).count()
+    today_count = Report.objects.filter(date_added__exact=date.today()).count()
+    all_count = Report.objects.filter().count()
+    last_ran = Report.objects.filter(user_id=request.user.id).last()
+
+    return render(request, 'user/dashboard.dj.html', {
+        'week': week_count,
+        'all': all_count,
+        'today': today_count,
+        'last_ran': last_ran,
+    })
 
 
 @login_required

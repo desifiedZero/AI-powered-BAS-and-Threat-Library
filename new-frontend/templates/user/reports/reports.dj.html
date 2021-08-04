@@ -12,19 +12,22 @@ Threat Info | {{ threat.name }}
 
 {% block content %}
     <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-12">
             {% for report in reports %}
-                <a href="{% url 'reports.get' report.id %}">
+                <a href="{% url 'reports.get' report.id %}" class="text-dark">
                     <div>
                         <h3>{{ report.threat.name }}</h3>
-                        <h4>Report ID: {{ report.id }}</h4>
+                        <h4 class="d-inline">Report # {{ report.id }}</h4>&nbsp;
                         {% if report.success == 1 %}
                            <span class="badge badge-success">SUCCESS</span>
                         {% else %}
                            <span class="badge badge-danger">FAILED</span>
                         {% endif %}
+                        <br>
+                        <small>{{ report.date_added|date:"D, M d, Y" }}</small>
                     </div>
                 </a>
+                <hr>
             {% endfor %}
 
         </div>
@@ -36,5 +39,9 @@ Threat Info | {{ threat.name }}
 
 
 {% block style %}
-
+    <style>
+    a:hover {
+        text-decoration: none;
+    }
+    </style>
 {% endblock %}

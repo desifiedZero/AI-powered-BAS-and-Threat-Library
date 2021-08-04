@@ -10,8 +10,53 @@ Dashboard
 
 {% block content %}
         <div class="row align-items-center">
-            <div class="col-12 py-5 text-center">
-                <h1>Your current system health status: <span class="text-success"><b>Healthy</b></span></h1>
+        <div class="col-12 mb-3"><h3>Overview</h3></div>
+            <div class="col-md-3 text-center">
+                <div class=" bg-primary text-light p-3">
+                    <h5>Tests ran till today</h5>
+                    <span style="font-size: 3rem;">{{ all }}</span>
+                </div>
             </div>
+            <div class="col-md-3 text-center">
+                <div class=" bg-primary text-light p-3">
+                    <h5>Tests ran today</h5>
+                    <span style="font-size: 3rem;">{{ today }}</span>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class=" bg-primary text-light p-3">
+                    <h5>Tests ran this week</h5>
+                    <span style="font-size: 3rem;">{{ week }}</span>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class=" bg-primary text-light p-3">
+                    <h5>Overall System Health</h5>
+                    <span style="font-size: 3rem;">Healthy</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-12">
+            <table>
+                <h3 class="mt-5">Last Simulation Ran</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Report ID</th>
+                            <th>Threat ID</th>
+                            <th>Simulation Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="/reports/{{ last_ran.id }}">{{ last_ran.id }}</a></td>
+                            <td><a href="/threats/{{ last_ran.threat }}">{{ last_ran.threat }}</a></td>
+                            <td>{{ last_ran.date_added|date:"D, M d, Y" }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </table>
+        </div>
         </div>
 {% endblock %}
